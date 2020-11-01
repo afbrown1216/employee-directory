@@ -2,7 +2,11 @@
     {
         "id": 1,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/2/21/MeredithIcon.png/revision/latest/scale-to-width-down/100?cb=20190726072824",
-        "name": "Meredith Grey",
+        "name":{
+            "title":"Dr.",
+            "firstName":"Meredith",
+            "lastName": "Grey"
+        },
         "phone": "123-4567" , 
         "email":"MGrey@GreySloanMemorial.com", 
         "dob": 1978
@@ -10,7 +14,10 @@
     {
         "id": 2,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/f/fb/BaileyIcon.png/revision/latest/scale-to-width-down/100?cb=20190726073127",
-        "name": "Miranda Bailey",
+        "name":{
+            "firstName": "Miranda",
+            "lastName": " Bailey"
+        },
         "phone":"234-5678", 
         "email":"MBailey@GreySloanMemorial.com", 
         "dob": 1976
@@ -18,7 +25,10 @@
     {
         "id": 3,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/a/a9/RichardIcon.png/revision/latest/scale-to-width-down/100?cb=20190726073223",
-        "name": "Richard Webber",
+        "name":{
+            "firstName":"Richard",
+            "lastName": "Webber"
+        },
         "phone":"345-6789", 
         "email":"RWebber@GreySloanMemorial.com", 
         "dob": 1954
@@ -26,7 +36,10 @@
     {
         "id": 4,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/a/aa/OwenIcon.png/revision/latest/scale-to-width-down/100?cb=20190726073413",
-        "name": "Owen Hunt",
+        "name":{
+            "firstName":"Owen",
+            "lastName": "Hunt"
+        },
         "phone": "456-7891", 
         "email":"OHunt@GreySloanMemorial.com", 
         "dob":1978
@@ -34,7 +47,10 @@
     {
         "id": 5,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/1/1c/JacksonIcon.png/revision/latest/scale-to-width-down/100?cb=20190726073455",
-        "name": "Jackson Avery",
+        "name":{
+            "firstName":"Jackson",
+            "lastName": "Avery"
+        },
         "phone": "567-8912", 
         "email":"JAvery@GreySloanMemorial.com", 
         "dob":1977
@@ -42,7 +58,10 @@
     {
         "id": 6,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/f/fe/AmeliaIcon.png/revision/latest/scale-to-width-down/100?cb=20190726073551",
-        "name": "Amelia Shepherd",
+        "name":{
+            "firstName":"Amelia",
+            "lastName": "Shepherd"
+        },
         "phone": "678-9123", 
         "email":"AShepherd@GreySloanMemorial.com", 
         "dob": 1974
@@ -50,7 +69,10 @@
     {
         "id": 7,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/9/9a/JoIcon.png/revision/latest/scale-to-width-down/100?cb=20190726073847",
-        "name": "Jo Karev",
+        "name":{
+            "firstName":"Jo",
+            "lastName": "Karev"
+        },
         "phone": "789-1234", 
         "email":"JKarev@GreySloanMemorial.com", 
         "dob": 1988
@@ -58,7 +80,10 @@
     {
         "id": 8,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/3/3c/MaggieIcon.png/revision/latest/scale-to-width-down/100?cb=20190726074022",
-        "name": "Maggie Pierce",
+        "name":{
+            "firstName": "Maggie",
+            "lastName": "Pierce"
+        },
         "phone":"891-2345", 
         "email":"MPierce@GreySloanMemorial.com", 
         "dob": 1983
@@ -66,7 +91,10 @@
     {
         "id": 9,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/6/69/AndrewIcon.png/revision/latest/scale-to-width-down/100?cb=20190726074200",
-        "name": "Andrew DeLuca",
+        "name":{
+            "firstName":"Andrew",
+            "lastName": "DeLuca"
+        },
         "phone":"912-3456", 
         "email":"ADeLuca@GreySloanMemorial.com", 
         "dob": 1991
@@ -74,7 +102,10 @@
     {
         "id": 10,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/8/8e/TeddyIcon.png/revision/latest/scale-to-width-down/100?cb=20171111200636",
-        "name": "Teddy Altman",
+        "name":{
+            "firstName":"Teddy",
+            "lastName": "Altman"
+        },
         "phone":"111-1111", 
         "email":"TAltman@GreySloanMemorial.com", 
         "dob": 1978
@@ -82,7 +113,10 @@
     {
         "id": 11,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/b/b8/TomIcon.png/revision/latest/scale-to-width-down/100?cb=20190726072637",
-        "name": "Tom Koracick",
+        "name":{
+            "firstName":"Tom",
+            "lastName": "Koracick"
+        },
         "phone":"222-2222", 
         "email":"TKoracick@GreySloanMemorial.com", 
         "dob": 1977
@@ -90,7 +124,10 @@
     {
         "id": 12,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/e/e8/LeviIcon.png/revision/latest/scale-to-width-down/100?cb=20190726072024",
-        "name": "Levi Schmitt",
+        "name":{
+            "firstName": "Levi",
+        "lastName": "Schmitt"
+        },
         "phone":"333-3333", 
         "email":"LSchmitt@GreySloanMemorial.com", 
         "dob": 1991
@@ -98,7 +135,10 @@
     {
         "id": 13,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/7/75/LinkIcon.png/revision/latest/scale-to-width-down/100?cb=20190726072219",
-        "name": "Atticus Lincoln",
+        "name":{
+            "firstName":"Atticus",
+            "lastName": "Lincoln"
+        },
         "phone": "444-4444", 
         "email":"ALincoln@GreySloanMemorial.com", 
         "dob": 1974
