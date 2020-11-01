@@ -6,7 +6,7 @@ const TableBody = (props) => {
        
                 <tr>
                     <td>
-                        <img alt = "Meridith" src={props.image} />
+                        <img alt = "Employee" src={props.image} />
                     </td>
                     <td> {props.name.firstName} {props.name.lastName} </td>
                     <td> {props.phone} </td>
