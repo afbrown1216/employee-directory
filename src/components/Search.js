@@ -1,34 +1,56 @@
-import React from 'react';
+import React, { Component } from 'react';
+import employees from "../greys.json";
 
-const Search = () => {
-    return (
-        <div className = "container">
+class Search extends Component {
+    state = {
+        search: "", 
+        results: [],
+        employees
+    }; 
 
-            <div class="row">
-                <div class="col-sm-3"></div>
-                <div class="col-sm-6">
-                    <form className="search">
-                        <div className="form-group">
-                            <label htmlFor="employeeName">Search Employee Name</label>
+    componentDidMount() {
+        this.setState({results: this.state.results});  
+    }
+
+    handleInputChange = event => {
+        this.setState({search: event.target.value});
+        
+    };
+    
+    handleSubmit = event => {
+        event.preventDefault(); 
+        const results = this.state.employees.filter(employee => employee.name === "Grey");
+        this.setState({ results })
+        console.log(results)
+    };
+
+    render() {
+        return (
+            <div className = "container">
+
+            <div className="row">
+                <div className="col-sm-4"></div>
+                <div className="col-sm-4">
+                    <form className="search" onSubmit={this.handleSubmit}>
+                        <div className="form-group" >
                             <input
-                                name="employeeName"
-                                list="bree"
+                                value={this.state.search}
+                                onChange={this.handleInputChange}
+                                name="search"
                                 type="text"
                                 className="form-control"
                                 placeholder="Search"
-                                id="name"
+                                id="search"
                             />
-                            <button type="submit"  className="btn btn-secondary">
-                                Search
-                            </button>
                          </div>
                      </form>
                 
                 </div>
-                <div class="col-sm-3"> </div>
+                <div className="col-sm-4"> </div>
             </div>
          </div>
-    );
-};
+        );
+    }
+}
 
 export default Search;
