@@ -10,12 +10,14 @@ class Table extends Component {
     //set state for greys array for the table page 
     state = {
         employees
-    }
+
+    };
     render() {
         return (
             <div className= "container">
                 <div className = "row">
                     <table className = "col-sm">
+                        <tbody>
                         <TableHeader />
                         {this.state.employees.map((employee) => (
                             <TableBody
@@ -28,6 +30,7 @@ class Table extends Component {
                             dob={employee.dob}
                             />
                         ))}
+                        </tbody>
                     </table>
                 </div>
             
