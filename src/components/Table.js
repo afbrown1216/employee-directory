@@ -1,6 +1,6 @@
 import React from 'react';
 import TableHeader from "./TableHeader";
-import TableBody from "./TableBody";
+
 
 const Table = (props) => {
     return (
@@ -10,17 +10,15 @@ const Table = (props) => {
                     <table className='col-sm'>
                         <tbody>
                             <TableHeader />
-                                {this.props.employees.map((employee) => (
-                                <TableBody
-                                    id={employee.id}
-                                    key={employee.id}
-                                    name={employee.name}
-                                    image={employee.image}
-                                    phone={employee.phone}
-                                    email={employee.email}
-                                    dob={employee.dob}
-                                />
-                                ))}
+                            <tr>
+                                <td>
+                                    <img alt = "Employee" src={props.image} />
+                                </td>
+                                <td> {props.name.firstName} {props.name.lastName} </td>
+                                <td> {props.phone} </td>
+                                <td> {props.email} </td>
+                                <td> {props.dob} </td>
+                            </tr>      
                         </tbody>
                     </table>
                 </div>
