@@ -1,18 +1,30 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Header from "../components/Header";
 import Search from "../components/Search";
 import Table from "../components/Table";
+import employees from "../greys.json";
 
-const home = () => {
-    return (
+
+
+class Home extends Component {
+    constructor() {
+      super();
+      this.state = { employees: employees };
+    }
+  
+    updateEmployees = (result) => {
+      this.setState({ employees: result });
+    };
+  
+    render() {
+      return (
         <div>
-
-            <Header />
-            <Search />
-            <Table /> 
-            
+          <Header />
+          <Search updateEmployees={this.updateEmployees} />
+          <Table employees={this.state.employees} />
         </div>
-    );
-};
+      );
+    }
+  }
 
-export default home;
+export default Home;
