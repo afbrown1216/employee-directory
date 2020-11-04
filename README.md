@@ -4,14 +4,14 @@
 
 ## Description 
 
-An app that displays the employees of Grey-Sloan Memorial hospital. It gives information on how to get in touch with each employee via phoen and email. You can search the directory for a specific employee and sort by last name. 
- Check it out here [here]()
+An app that displays the employees of Grey-Sloan Memorial Hospital through out the seasons of  the fictional show Grey's Anatomy. You can search the directory for a specific employee and sort by last name. 
+Check it out here [here](https://afbrown1216.github.io/employee-directory/)
 
 ## Usage 
 
-Below is an image of the directory. It displays an image, name, phone number, email and DOB of each employee. 
+Below is image of Grey-Sloan Memorial Hospital staff thorugh out the years.  
 <p align = "center">
-    <img alt ="Employee Directory" src="GreysEmployeeDirectory.png">
+    <img alt ="Employee Directory" src="Screen Shot 2020-11-04 at 2.24.29 AM.png">
 </p>
 
 ## Questions
