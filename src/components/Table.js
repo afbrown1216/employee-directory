@@ -16,10 +16,11 @@ const Table = (props) => {
             <td>
                 <img alt = "Employee" src={employee.image} style={imgStyle}/>
             </td>
-            <td> {employee.name.firstName} {employee.name.lastName} </td>
-            <td> {employee.phone} </td>
-            <td> {employee.email} </td>
-            <td> {employee.dob} </td>
+        <td> {employee.name.title} {employee.name.firstName} {employee.name.lastName} </td>
+            <td> {employee.position} </td>
+            <td> {employee.workplace} </td>
+            
+            <td> {employee.seasons} </td>
             </tr>   
         )
     })

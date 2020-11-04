@@ -9,7 +9,6 @@ const TableHeader = (props) => {
                     <th onClick={props.onClick}>Name</th>
                     <th>Last Position</th>
                     <th>Last Workplace</th>
-                    <th>Email</th>
                     <th># of Seasons</th>     
                 </tr>
             

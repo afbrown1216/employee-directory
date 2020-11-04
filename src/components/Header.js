@@ -5,7 +5,7 @@ const Header = () => {
 
     <div className="jumbotron jumbotron-fluid">
         <div className="container">
-            <h3 className="display-4">Employee Directory </h3>
+            <h3 className="display-5">Employee Directory </h3>
             <p className="lead"> A list of Grey Sloan Memorial employees</p>
         </div>
     </div>
