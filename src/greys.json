@@ -7,9 +7,10 @@
             "firstName":"Meredith",
             "lastName": "Grey"
         },
-        "phone": "123-4567" , 
+        "position":"Head of General Surgery", 
+        "workplace":"Grey Sloan Memorial Hospital",
         "email":"MGrey@GreySloanMemorial.com", 
-        "dob": 1978
+        "seasons":17
     }, 
     {
         "id": 2,
@@ -19,9 +20,10 @@
             "firstName": "Miranda",
             "lastName": " Bailey"
         },
-        "phone":"234-5678", 
+        "position":"Chief of Surgery, Attending General Surgeon",
+        "workplace":"Grey Sloan Memorial Hospital",
         "email":"MBailey@GreySloanMemorial.com", 
-        "dob": 1976
+        "seasons":17
     }, 
     {
         "id": 3,
@@ -31,9 +33,10 @@
             "firstName":"Richard",
             "lastName": "Webber"
         },
-        "phone":"345-6789", 
+        "position":"Attending General Surgeon, Director of the Residency Program",
+        "workplace":"Grey Sloan Memorial Hospital",
         "email":"RWebber@GreySloanMemorial.com", 
-        "dob": 1954
+        "seasons": 17
     },
     {
         "id": 4,
@@ -43,9 +46,10 @@
             "firstName":"Owen",
             "lastName": "Hunt"
         },
-        "phone": "456-7891", 
+        "position":"Head of Trauma Surgery",
+        "workplace":"Grey Sloan Memorial Hospital",
         "email":"OHunt@GreySloanMemorial.com", 
-        "dob":1978
+        "seasons":13
     },
     {
         "id": 5,
@@ -55,9 +59,10 @@
             "firstName":"Jackson",
             "lastName": "Avery"
         },
-        "phone": "567-8912", 
+        "position":"Head of Plastic Surgery,Attending ENT",
+        "workplace":"Grey Sloan Memorial Hospital, Catherine Fox Foundation",
         "email":"JAvery@GreySloanMemorial.com", 
-        "dob":1977
+        "seasons": 12
     },
     {
         "id": 6,
@@ -67,9 +72,10 @@
             "firstName":"Amelia",
             "lastName": "Shepherd"
         },
-        "phone": "678-9123", 
+        "position":"Head of Neurosurgery",
+        "workplace":"Grey Sloan Memorial Hospital",
         "email":"AShepherd@GreySloanMemorial.com", 
-        "dob": 1974
+        "seasons":10
     },
     {
         "id": 7,
@@ -79,9 +85,10 @@
             "firstName":"Jo",
             "lastName": "Karev"
         },
-        "phone": "789-1234", 
+        "position":"Attending General Surgeon",
+        "workplace": "Grey Sloan Memorial Hospital",
         "email":"JKarev@GreySloanMemorial.com", 
-        "dob": 1988
+        "seasons": 8
     },
     {
         "id": 8,
@@ -91,9 +98,10 @@
             "firstName": "Maggie",
             "lastName": "Pierce"
         },
-        "phone":"891-2345", 
+        "postion":"Co-Head of Cardiothoracic Surgery",
+        "workplace":"Grey Sloan Memorial Hospital",
         "email":"MPierce@GreySloanMemorial.com", 
-        "dob": 1983
+        "seasons":7
     },
     {
         "id": 9,
@@ -103,9 +111,10 @@
             "firstName":"Andrew",
             "lastName": "DeLuca"
         },
-        "phone":"912-3456", 
+        "positions":"Surgical Resident",
+        "workplace": "Grey Sloan Memorial Hospital",
         "email":"ADeLuca@GreySloanMemorial.com", 
-        "dob": 1991
+        "seasons":7
     },
     {
         "id": 10,
@@ -115,9 +124,10 @@
             "firstName":"Teddy",
             "lastName": "Altman"
         },
-        "phone":"111-1111", 
+        "postion": "Grey Sloan Memorial Hospital",
+        "workplace":"Co-Head of Cardiothoracic Surgery",
         "email":"TAltman@GreySloanMemorial.com", 
-        "dob": 1978
+        "seasons": 7
     },
     {
         "id": 11,
@@ -127,9 +137,10 @@
             "firstName":"Tom",
             "lastName": "Koracick"
         },
-        "phone":"222-2222", 
+        "position": "Chief Medical Officer",
+        "workplace": "Catherine Fox Foundation",
         "email":"TKoracick@GreySloanMemorial.com", 
-        "dob": 1977
+        "seasons":4
     },
     {
         "id": 12,
@@ -139,9 +150,10 @@
             "firstName": "Levi",
             "lastName": "Schmitt"
         },
-        "phone":"333-3333", 
+        "position": "Surgical Resident",
+        "workplace":"Grey Sloan Memorial Hospital",
         "email":"LSchmitt@GreySloanMemorial.com", 
-        "dob": 1991
+        "seasons": 4
     },
     {
         "id": 13,
@@ -151,9 +163,157 @@
             "firstName":"Atticus",
             "lastName": "Lincoln"
         },
-        "phone": "444-4444", 
+        "positions":"Head of Orthopedic Surgery",
+        "workplace": "Grey Sloan Memorial Hospital",
         "email":"ALincoln@GreySloanMemorial.com", 
-        "dob": 1974
+        "seasons": 3
+    }, 
+    {
+        "id": 14, 
+        "image":"https://static.wikia.nocookie.net/greysanatomy/images/3/38/AlexIcon.png/revision/latest/scale-to-width-down/100?cb=20190726073015",
+        "name": {
+            "title":"Dr.",
+            "firstName":"Alex",
+            "lastName": "Karev"
+        },
+        "position":"Attending Pediatric Surgeon" ,
+        "workplace":"Shawnee Memorial",
+        "email":"AKarev@GreySloanMemorial.com", 
+        "seasons":16
+    }, 
+    {
+        "id":15, 
+        "image":"https://static.wikia.nocookie.net/greysanatomy/images/6/67/DerekIcon.png/revision/latest/scale-to-width-down/100?cb=20190726074253", 
+        "name": {
+            "title":"Dr.",
+            "firstName":"Derek",
+            "lastName": "Shepherd"
+        },
+        "position":"Attending Neurosurgeon" ,
+        "workplace":"Grey Sloan Memorial Hospital",
+        "email":"DShepherd@GreySloanMemorial.com", 
+        "seasons":15
+
+    }, 
+    {
+        "id":16, 
+        "image":"https://static.wikia.nocookie.net/greysanatomy/images/0/06/CristinaIcon.png/revision/latest/scale-to-width-down/100?cb=20190726074352", 
+        "name": {
+            "title":"Dr.",
+            "firstName":"Cristina",
+            "lastName": "Yang"
+        },
+        "position":"Director of Cardiothoracic Surgery, Chief Medical Officer, Attending Cardiothoracic Surgeon",
+        "workplace":"Klausman Institute for Medical Research",
+        "email":"CYang@GreySloanMemorial.com", 
+        "seasons":11
+
+    },
+    {
+        "id":17, 
+        "image":"https://static.wikia.nocookie.net/greysanatomy/images/9/98/CallieIcon.png/revision/latest/scale-to-width-down/100?cb=20190726074454", 
+        "name": {
+            "title":"Dr.",
+            "firstName":"Callie",
+            "lastName": "Torres"
+        },
+        "position":"Attending Orthopedic Surgeon" ,
+        "workplace":"Seattle Grace Hospital",
+        "email":"CTorres@GreySloanMemorial.com", 
+        "seasons":12
+
+    },
+    {
+        "id":18, 
+        "image":"https://static.wikia.nocookie.net/greysanatomy/images/4/43/ArizonaIcon.png/revision/latest/scale-to-width-down/100?cb=20190726074604", 
+        "name": {
+            "title":"Dr.",
+            "firstName":"Arizona",
+            "lastName": "Robbins"
+        },
+        "position":"Attending Fetal Surgeon, Attending Pediatric Surgeon" ,
+        "workplace":"Robbins-Herman Center for Women's Health",
+        "email":"ARobbins@GreySloanMemorial.com", 
+        "seasons":10
+
+    },
+    {
+        "id":19, 
+        "image":"https://static.wikia.nocookie.net/greysanatomy/images/a/ac/AprilIcon.png/revision/latest/scale-to-width-down/100?cb=20190726074707", 
+        "name": {
+            "title":"Dr.",
+            "firstName":"April",
+            "lastName": "Kepner"
+        },
+        "position":"Attending Trauma Surgeon" ,
+        "workplace":"Seattle Charity Clinic",
+        "email":"AKepner@GreySloanMemorial.com", 
+        "seasons":9
+    },
+    {
+        "id":20, 
+        "image":"https://static.wikia.nocookie.net/greysanatomy/images/1/18/MarkIcon.png/revision/latest/scale-to-width-down/100?cb=20130314163503", 
+        "name": {
+            "title":"Dr.",
+            "firstName":"Mark",
+            "lastName": "Sloan"
+        },
+        "position":"Head of Plastic Surgery, Attending Otolaryngologist" ,
+        "workplace":"Seattle Grace Mercy West Hospital",
+        "email":"MSloan@GreySloanMemorial.com", 
+        "seasons":9
+    },
+    {
+        "id":21, 
+        "image":"https://static.wikia.nocookie.net/greysanatomy/images/0/07/LexieIcon.png/revision/latest/scale-to-width-down/100?cb=20130314163310", 
+        "name": {
+            "title":"Dr.",
+            "firstName":"Lexi",
+            "lastName": "Grey"
+        },
+        "position":"Surgical Resident" ,
+        "workplace": "Seattle Grace Mercy West Hospital",
+        "email":"LGrey@GreySloanMemorial.com", 
+        "seasons": 7
+    },
+    {
+        "id":22, 
+        "image":"https://static.wikia.nocookie.net/greysanatomy/images/1/19/IzzieIcon.png/revision/latest/scale-to-width-down/100?cb=20160331175152", 
+        "name": {
+            "title":"Dr.",
+            "firstName":"Izzie",
+            "lastName": "Stevens"
+        },
+        "position":"Attending Surgical Oncologist" ,
+        "workplace": "Seattle Grace Hospital",
+        "email":"IStevens@GreySloanMemorial.com", 
+        "seasons":7 
+    },
+    {
+        "id":23, 
+        "image":"https://static.wikia.nocookie.net/greysanatomy/images/d/dc/GeorgeIcon.png/revision/latest/scale-to-width-down/100?cb=20160331174849", 
+        "name": {
+            "title":"Dr.",
+            "firstName":"George",
+            "lastName": "O'Malley"
+        },
+        "position":"Surgical Resident" ,
+        "workplace":"Seattle Grace Hospital",
+        "email":"GOMalley@GreySloanMemorial.com", 
+        "seasons":7 
+    },
+    {
+        "id":24, 
+        "image":"https://static.wikia.nocookie.net/greysanatomy/images/8/87/StephanieIcon.png/revision/latest/scale-to-width-down/100?cb=20190726074843", 
+        "name": {
+            "title":"Dr.",
+            "firstName":"Stephanie",
+            "lastName": "Edwards"
+        },
+        "position":"Surgical Resident" ,
+        "workplace":"Grey Sloan Memorial Hospital",
+        "email":"SEdwards@GreySloanMemorial.com", 
+        "seasons":5
     }
 
 ]
