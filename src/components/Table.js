@@ -30,22 +30,10 @@ const Table = (props) => {
             <div className='container'>
                 <div className='row'>
                     <table className='col-sm'>
-                        <TableHeader onClick={props.onClick}/>
                         <tbody>
+                            <TableHeader onClick={props.onClick}/>
+                        
                             {updateData}
-                        {/* {props.state.employees.map((employee)=>{
-                           return (
-                            <tr>
-                            <td>
-                                <img alt = "Employee" src={employee.image} />
-                            </td>
-                            <td> {employee.name.firstName} {employee.name.lastName} </td>
-                            <td> {employee.phone} </td>
-                            <td> {employee.email} </td>
-                            <td> {employee.dob} </td>
-                            </tr>   
-                           )
-                        })} */}
                         </tbody>
                         
                     </table>
