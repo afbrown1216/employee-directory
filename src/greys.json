@@ -15,6 +15,7 @@
         "id": 2,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/f/fb/BaileyIcon.png/revision/latest/scale-to-width-down/100?cb=20190726073127",
         "name":{
+            "title":"Dr.",
             "firstName": "Miranda",
             "lastName": " Bailey"
         },
@@ -26,6 +27,7 @@
         "id": 3,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/a/a9/RichardIcon.png/revision/latest/scale-to-width-down/100?cb=20190726073223",
         "name":{
+            "title":"Dr.",
             "firstName":"Richard",
             "lastName": "Webber"
         },
@@ -37,6 +39,7 @@
         "id": 4,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/a/aa/OwenIcon.png/revision/latest/scale-to-width-down/100?cb=20190726073413",
         "name":{
+            "title":"Dr.",
             "firstName":"Owen",
             "lastName": "Hunt"
         },
@@ -48,6 +51,7 @@
         "id": 5,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/1/1c/JacksonIcon.png/revision/latest/scale-to-width-down/100?cb=20190726073455",
         "name":{
+            "title":"Dr.",
             "firstName":"Jackson",
             "lastName": "Avery"
         },
@@ -59,6 +63,7 @@
         "id": 6,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/f/fe/AmeliaIcon.png/revision/latest/scale-to-width-down/100?cb=20190726073551",
         "name":{
+            "title":"Dr.",
             "firstName":"Amelia",
             "lastName": "Shepherd"
         },
@@ -70,6 +75,7 @@
         "id": 7,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/9/9a/JoIcon.png/revision/latest/scale-to-width-down/100?cb=20190726073847",
         "name":{
+            "title":"Dr.",
             "firstName":"Jo",
             "lastName": "Karev"
         },
@@ -81,6 +87,7 @@
         "id": 8,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/3/3c/MaggieIcon.png/revision/latest/scale-to-width-down/100?cb=20190726074022",
         "name":{
+            "title":"Dr.",
             "firstName": "Maggie",
             "lastName": "Pierce"
         },
@@ -92,6 +99,7 @@
         "id": 9,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/6/69/AndrewIcon.png/revision/latest/scale-to-width-down/100?cb=20190726074200",
         "name":{
+            "title":"Dr.",
             "firstName":"Andrew",
             "lastName": "DeLuca"
         },
@@ -103,6 +111,7 @@
         "id": 10,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/8/8e/TeddyIcon.png/revision/latest/scale-to-width-down/100?cb=20171111200636",
         "name":{
+            "title":"Dr.",
             "firstName":"Teddy",
             "lastName": "Altman"
         },
@@ -114,6 +123,7 @@
         "id": 11,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/b/b8/TomIcon.png/revision/latest/scale-to-width-down/100?cb=20190726072637",
         "name":{
+            "title":"Dr.",
             "firstName":"Tom",
             "lastName": "Koracick"
         },
@@ -125,8 +135,9 @@
         "id": 12,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/e/e8/LeviIcon.png/revision/latest/scale-to-width-down/100?cb=20190726072024",
         "name":{
+            "title":"Dr.",
             "firstName": "Levi",
-        "lastName": "Schmitt"
+            "lastName": "Schmitt"
         },
         "phone":"333-3333", 
         "email":"LSchmitt@GreySloanMemorial.com", 
@@ -136,6 +147,7 @@
         "id": 13,
         "image":"https://static.wikia.nocookie.net/greysanatomy/images/7/75/LinkIcon.png/revision/latest/scale-to-width-down/100?cb=20190726072219",
         "name":{
+            "title":"Dr.",
             "firstName":"Atticus",
             "lastName": "Lincoln"
         },
