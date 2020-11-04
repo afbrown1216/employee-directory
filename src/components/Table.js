@@ -12,9 +12,9 @@ const Table = (props) => {
         return true
     }).map((employee) => {
         return (
-            <tr key={employee.id}>
+            <tr key={employee.id} style={rowStyle}>
             <td>
-                <img alt = "Employee" src={employee.image} />
+                <img alt = "Employee" src={employee.image} style={imgStyle}/>
             </td>
             <td> {employee.name.firstName} {employee.name.lastName} </td>
             <td> {employee.phone} </td>
@@ -29,7 +29,7 @@ const Table = (props) => {
 
             <div className='container'>
                 <div className='row'>
-                    <table className='col-sm'>
+                    <table className='col-sm table table-striped'>
                         <tbody>
                             <TableHeader onClick={props.onClick}/>
                         
@@ -43,5 +43,14 @@ const Table = (props) => {
         </div>
     );
 };
+
+var imgStyle = {
+    width: "100%"
+};
+var rowStyle = {
+    backgroundColor: 'light grey', 
+   
+    padding: '8px'
+}; 
 
 export default Table;
