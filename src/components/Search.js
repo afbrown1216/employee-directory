@@ -1,56 +1,67 @@
-import React, { Component } from 'react';
-import employees from '../greys.json';
 
-class Search extends Component {
-  state = {
-    search: '',
-    // results: [],
-    employees,
-  };
 
-  componentDidMount() {
-    this.setState({ results: this.state.results });
-  }
 
-  handleInputChange = (event) => {
-    this.setState({ search: event.target.value });
-  };
+import React from 'react';
+import Form from "./Form"
 
-  handleSubmit = (event) => {
-    event.preventDefault();
-    console.log(this.state.employees);
-    const results = this.state.employees.filter(
-      (employee) => employee.name.lastName === 'Grey'
-    );
-    this.props.updateEmployees(results);
-    console.log(results);
-  };
-
-  render() {
+const Search = (props) => {
     return (
-      <div className='container'>
-        <div className='row'>
-          <div className='col-sm-4'></div>
-          <div className='col-sm-4'>
-            <form className='search' onSubmit={this.handleSubmit}>
-              <div className='form-group'>
-                <input
-                  value={this.state.search}
-                  onChange={this.handleInputChange}
-                  name='search'
-                  type='text'
-                  className='form-control'
-                  placeholder='Search'
-                  id='search'
-                />
-              </div>
-            </form>
-          </div>
-          <div className='col-sm-4'> </div>
+        <div>
+            <Form search={props.search} onChange={props.onChange}/>    
         </div>
-      </div>
     );
-  }
-}
+};
 
 export default Search;
+
+// class Search extends Component {
+//   state = {
+//     search: '',
+//     results: [],
+//     employees
+//   };
+
+//   componentDidMount() {
+//     this.setState({ results: this.state.employees });
+//   }
+
+//   handleInputChange = (event) => {
+//     this.setState(
+//         { search: event.target.value },
+//         () => {
+//                 if(this.state.search === "") {
+//                     this.setState({results: this.state.employees })
+//                 } else { 
+//                     const results = this.state.employees.filter( (employee) => {
+//                         return employee.name.firstName.slice(0, this.state.search.length).toLowerCase() === this.state.search.toLowerCase()
+//                     })
+//                     this.setState({ results: results })
+//                 }
+//         }
+//     )};
+
+
+//   render() {
+//     return (
+//       <>
+//       {/* 
+//       {this.props.results.map((result ) => (
+//       <Table 
+//         id={result.id}
+//         name={result.name}
+//         image={result.image}
+//         email= {result.email}
+//         phone ={result.phone}
+//         dob={result.dob}
+//       /> 
+//       ))} */}
+
+//       </>
+//     );
+//   }
+// }
+
+// export default Search;
+
+
+

@@ -10,7 +10,7 @@ const Form = (props) => {
                         <div className='form-group'>
                             <input
                             value={props.search}
-                            onChange={props.handleInputChange}
+                            onChange={props.onChange}
                             name='search'
                             type='text'
                             className='form-control'
