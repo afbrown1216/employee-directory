@@ -10,7 +10,8 @@ import employees from "../greys.json";
 class home extends Component {
     state = {
         employees,
-        search: ''
+        search: '',
+        sortedEmployees: ''
     }
 
     onChange = (event)=> {
@@ -36,13 +37,19 @@ class home extends Component {
 
     onClick = ()=> {
         console.log('hit')
-        console.log(employees.sort(sortEmployees)); 
+        var sortedEmployees = employees
+        sortedEmployees.sort(
+            (a,b)=> {
+                return a.name.lastName > b.name.lastName ? 1 : b.name.lastName > a.name.lastName ? -1 : 0;
+             }
+        ); 
+        this.setState({
+            sortedEmployees: sortedEmployees
+        })
         
-    }
-    
-     sortEmployees = (a,b)=> {
-        return a > b ? 1 : b > a ? -1 : 0;
-     }
+    };
+
+
     render() {
         console.log('state', this.state)
         return (
