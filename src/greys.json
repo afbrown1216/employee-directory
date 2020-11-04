@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image":"https://static.wikia.nocookie.net/greysanatomy/images/2/21/MeredithIcon.png/revision/latest/scale-to-width-down/100?cb=20190726072824",
+        "image":"https://cdn1.edgedatg.com/aws/v2/abc/GreysAnatomy/person/736567/ca68b419113c47ff5fe1751e030f03b9/990x557-Q90_ca68b419113c47ff5fe1751e030f03b9.jpg",
         "name":{
             "title":"Dr.",
             "firstName":"Meredith",
@@ -13,7 +13,7 @@
     }, 
     {
         "id": 2,
-        "image":"https://static.wikia.nocookie.net/greysanatomy/images/f/fb/BaileyIcon.png/revision/latest/scale-to-width-down/100?cb=20190726073127",
+        "image":"https://cdn1.edgedatg.com/aws/v2/abc/GreysAnatomy/person/736747/89aee2b910916a0ee088a2019e40c693/990x557-Q90_89aee2b910916a0ee088a2019e40c693.jpg",
         "name":{
             "title":"Dr.",
             "firstName": "Miranda",
@@ -25,7 +25,7 @@
     }, 
     {
         "id": 3,
-        "image":"https://static.wikia.nocookie.net/greysanatomy/images/a/a9/RichardIcon.png/revision/latest/scale-to-width-down/100?cb=20190726073223",
+        "image":"https://cdn1.edgedatg.com/aws/v2/abc/GreysAnatomy/person/736314/9368c7a9f9039a649bc94989e6bf62e7/990x557-Q90_9368c7a9f9039a649bc94989e6bf62e7.jpg",
         "name":{
             "title":"Dr.",
             "firstName":"Richard",
@@ -37,7 +37,7 @@
     },
     {
         "id": 4,
-        "image":"https://static.wikia.nocookie.net/greysanatomy/images/a/aa/OwenIcon.png/revision/latest/scale-to-width-down/100?cb=20190726073413",
+        "image":"https://cdn1.edgedatg.com/aws/v2/abc/GreysAnatomy/person/736363/46f73c0d6fe04c70b1ef1b3d80cdfae7/990x557-Q90_46f73c0d6fe04c70b1ef1b3d80cdfae7.jpg",
         "name":{
             "title":"Dr.",
             "firstName":"Owen",
@@ -49,7 +49,7 @@
     },
     {
         "id": 5,
-        "image":"https://static.wikia.nocookie.net/greysanatomy/images/1/1c/JacksonIcon.png/revision/latest/scale-to-width-down/100?cb=20190726073455",
+        "image":"https://cdn1.edgedatg.com/aws/v2/abc/GreysAnatomy/person/736412/d94c8525cab2c70bdec9916d34349cec/990x557-Q90_d94c8525cab2c70bdec9916d34349cec.jpg",
         "name":{
             "title":"Dr.",
             "firstName":"Jackson",
@@ -61,7 +61,7 @@
     },
     {
         "id": 6,
-        "image":"https://static.wikia.nocookie.net/greysanatomy/images/f/fe/AmeliaIcon.png/revision/latest/scale-to-width-down/100?cb=20190726073551",
+        "image":"https://cdn1.edgedatg.com/aws/v2/abc/GreysAnatomy/person/753071/55a948b646164970c491b7bf9f209563/990x557-Q90_55a948b646164970c491b7bf9f209563.jpg",
         "name":{
             "title":"Dr.",
             "firstName":"Amelia",
@@ -73,7 +73,7 @@
     },
     {
         "id": 7,
-        "image":"https://static.wikia.nocookie.net/greysanatomy/images/9/9a/JoIcon.png/revision/latest/scale-to-width-down/100?cb=20190726073847",
+        "image":"https://cdn1.edgedatg.com/aws/v2/abc/GreysAnatomy/person/736806/6b19ee55a50b1f4c1c4d09d7a3cbcbf0/990x557-Q90_6b19ee55a50b1f4c1c4d09d7a3cbcbf0.jpg",
         "name":{
             "title":"Dr.",
             "firstName":"Jo",
@@ -85,7 +85,7 @@
     },
     {
         "id": 8,
-        "image":"https://static.wikia.nocookie.net/greysanatomy/images/3/3c/MaggieIcon.png/revision/latest/scale-to-width-down/100?cb=20190726074022",
+        "image":"https://cdn1.edgedatg.com/aws/v2/abc/GreysAnatomy/person/753040/2012edd0990e219ef9d011f68e280144/990x557-Q90_2012edd0990e219ef9d011f68e280144.jpg",
         "name":{
             "title":"Dr.",
             "firstName": "Maggie",
@@ -97,7 +97,7 @@
     },
     {
         "id": 9,
-        "image":"https://static.wikia.nocookie.net/greysanatomy/images/6/69/AndrewIcon.png/revision/latest/scale-to-width-down/100?cb=20190726074200",
+        "image":"https://cdn1.edgedatg.com/aws/v2/abc/GreysAnatomy/person/1238908/2f7a7735de365ce57c9f88237c0b0262/990x557-Q90_2f7a7735de365ce57c9f88237c0b0262.jpg",
         "name":{
             "title":"Dr.",
             "firstName":"Andrew",
@@ -109,7 +109,7 @@
     },
     {
         "id": 10,
-        "image":"https://static.wikia.nocookie.net/greysanatomy/images/8/8e/TeddyIcon.png/revision/latest/scale-to-width-down/100?cb=20171111200636",
+        "image":"https://cdn1.edgedatg.com/aws/v2/abc/GreysAnatomy/person/2169675/6479e134eceb2c4b9089c8f0b09d4db5/990x557-Q90_6479e134eceb2c4b9089c8f0b09d4db5.jpg",
         "name":{
             "title":"Dr.",
             "firstName":"Teddy",
@@ -121,7 +121,7 @@
     },
     {
         "id": 11,
-        "image":"https://static.wikia.nocookie.net/greysanatomy/images/b/b8/TomIcon.png/revision/latest/scale-to-width-down/100?cb=20190726072637",
+        "image":"https://cdn1.edgedatg.com/aws/v2/abc/GreysAnatomy/person/2848470/c17b770f970da4d19465fa9f4b5e27fe/990x557-Q90_c17b770f970da4d19465fa9f4b5e27fe.jpg",
         "name":{
             "title":"Dr.",
             "firstName":"Tom",
@@ -133,7 +133,7 @@
     },
     {
         "id": 12,
-        "image":"https://static.wikia.nocookie.net/greysanatomy/images/e/e8/LeviIcon.png/revision/latest/scale-to-width-down/100?cb=20190726072024",
+        "image":"https://cdn1.edgedatg.com/aws/v2/abc/GreysAnatomy/person/2848454/1e16ded6f9f35432f7b3086961d8cca5/990x557-Q90_1e16ded6f9f35432f7b3086961d8cca5.jpg",
         "name":{
             "title":"Dr.",
             "firstName": "Levi",
@@ -145,7 +145,7 @@
     },
     {
         "id": 13,
-        "image":"https://static.wikia.nocookie.net/greysanatomy/images/7/75/LinkIcon.png/revision/latest/scale-to-width-down/100?cb=20190726072219",
+        "image":"https://cdn1.edgedatg.com/aws/v2/abc/GreysAnatomy/person/2848432/f8693f3a9103160fe792c23e7d38154d/990x557-Q90_f8693f3a9103160fe792c23e7d38154d.jpg",
         "name":{
             "title":"Dr.",
             "firstName":"Atticus",
